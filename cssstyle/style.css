@@ -1,0 +1,117 @@
+body {
+	background: hsl(185, 75%, 39%);
+	font-family: 'Kumbh Sans', sans-serif;
+	text-align: center;
+	margin: 0;
+	background-image: url('../bg-pattern-top.svg'),
+    url('../bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+
+h1 {
+	color: hsl(229, 23%, 23%);
+	font-weight: 700;
+}
+
+p {
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+}
+
+.number {
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+}
+
+.white {
+	background: #fff;
+	border-radius: 0 0 1rem 1rem;
+}
+
+.victor img {
+	border-radius: 50%;
+	border: 5px solid #fff;
+	margin-top: -3.2rem;
+}
+
+.topback img {
+	border-radius: 1rem 1rem 0 0;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.topback {
+	margin-bottom: 0;
+}
+
+.stats {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.stat {
+	text-align: center;
+}
+
+@media screen and (min-width: 280px){
+     .white {
+     	width: 325px;
+     	margin: 0 auto 0 auto;
+     }
+
+     .topback img {
+	     width: 325px;
+	     margin: auto;
+}
+
+main {
+	margin: 10rem 0 10rem 0;
+}
+
+body h1 {
+	font-size: 115%;
+	margin-bottom: .5rem;
+}
+
+body p {
+	font-size: 100%;
+	margin-top: .5rem;
+}
+
+.stats {
+	padding: 1rem 0 1rem 0;
+}
+
+.white p {
+	font-size: 90%;
+}
+
+.one {
+	margin-right: 2rem;
+}
+
+.two {
+	margin-left: 2rem;
+	padding-left: 1rem;
+}
+
+.stats p {
+	font-size: 70%;
+	letter-spacing: 2px;
+	margin-top: 0;
+}
+
+.stats h1 {
+	margin-bottom: .3rem;
+	font-size: 120%;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+}
+
